@@ -1,42 +1,44 @@
 	<b><size=50>Tипы данных</size></b>
 
-    <size=45>Каждая переменная имеет определенный тип. И этот тип определяет, какие значения может иметь переменная, какие операции с ней можно производить. В языке C++ определены следующие базовые типы данных: логический тип <b>bool</b>, целочисленный тип <b>int</b>, тип чисел с плавающей точкой <b>double</b>, символьные типы <b>string</b>. Рассмотрим эти группы по отдельности.</size>
+    <size=45>Каждая переменная имеет определенный тип. И этот тип определяет, какие значения может иметь переменная, какие операции с ней можно производить. В языке C++ определены следующие базовые типы данных: логический тип <b><color=#053ad1>bool</color></b>, целочисленный тип <b><color=#053ad1>int</color></b>, тип чисел с плавающей точкой <b><color=#053ad1>double</color></b>, символьные типы <b><color=#053ad1>string</color></b> и <b><color=#053ad1>char</color></b>. Рассмотрим эти группы по отдельности.</size>
 
 	<b><size=50><size=63>л</size>огический тип</size></b>
 
-    <size=45><size=63>л</size>огический тип <b>bool</b> может хранить одно из двух значений: <b>true</b> (истинно, верно) и <b>false</b> (неверно, ложно). Например, определим пару переменных данного типа и выведем их значения на консоль:</size>
+    <size=45><size=60>л</size>огический тип <b><color=#053ad1>bool</color></b> может хранить одно из двух значений: <b><color=#053ad1>true</color></b> (<b>истинно, верно</b>) и <b><color=#053ad1>false</color></b> (<b>неверно, ложно</b>). Например, определим пару переменных данного типа и выведем их значения на консоль:</size>
 
-    	<i><size=45><color=#191970>#include <iostream></color></size></i>
+    	   <size=45>#include <<color=#dd3f37>iostream</color>>
 
-    	<i><size=45><color=#191970>using namespace std;</color></size></i>
+    	<color=#053ad1>using  namespace</color>  std;
 
-	<i><size=45><color=#191970>int main()</color></size></i>
-	<i><size=45><color=#191970>{</color></size></i>
-	    <i><size=45><color=#191970>bool isAlive {true};</color></size></i>
-	    <i><size=45><color=#191970>bool isDead {false};</color></size></i>
-    	    <i><size=45><color=#191970>std::cout << "isAlive: " << isAlive << "\n";</color></size></i>
-	    <i><size=45><color=#191970>std::cout << "isDead: " << isDead << "\n";</color></size></i>
-	<i><size=45><color=#191970>}</color></size></i>
+	<color=#053ad1>int</color>  <color=#cc7b44>main</color>()
+	{
+	    <color=#053ad1>bool</color>  <color=#297499>isAlive</color>  =  <color=#053ad1>true</color>;
+	    <color=#053ad1>bool</color>  <color=#297499>isDead</color>  =  <color=#053ad1>false</color>;
 
-    <size=45>При выводе значения типа <b>bool</b> преобразуются в 1 (если true) и 0 (если false).</size>
+    	    cout  <<  <color=#dd3f37>"isAlive: "</color>  <<  <color=#297499>isAlive</color>  <<  <color=#dd3f37>"\n"</color>;
+	    cout  <<  <color=#dd3f37>"isDead: "</color>  <<  <color=#297499>isDead</color>  << <color=#dd3f37>"\n"</color>;
+	}</size>
+
+    <size=45>При выводе значения типа <b><color=#053ad1>bool</color></b> преобразуются в <b>1</b> (если <color=#053ad1>true</color>) и <b>0</b> (если <color=#053ad1>false</color>).</size>
 
 	<b><size=50><size=63>ц</size>елочисленные типы</size></b>
 
-    <size=45>Самый распространенный тип данных в C++, который содержит в себе целые числа - это <b>int</b>.</size>
+    <size=45>Самый распространенный тип данных в C++, который содержит в себе целые числа - это <b><color=#053ad1>int</color></b>.</size>
 
     <size=45>Для представления чисел в С++ применятся целочисленные литералы со знаком или без, типа -10 или 10. Например, определим ряд переменных целочисленных типов и выведем их значения на консоль:</size>
 
-    	<i><size=45><color=#191970>#include <iostream></color></size></i>
+    	   <size=45>#include <<color=#dd3f37>iostream</color>>
 
-    	<i><size=45><color=#191970>using namespace std;</color></size></i>
+    	<color=#053ad1>using  namespace</color>  std;
 
-	<i><size=45><color=#191970>int main()</color></size></i>
-	<i><size=45><color=#191970>{</color></size></i>
-	    <i><size=45><color=#191970>int num1 = 102;</color></size></i>
-	    <i><size=45><color=#191970>int num2 = -1024;</color></size></i>
-	    <i><size=45><color=#191970>cout << "num1 = " << num1 << endl;</color></size></i>
-	    <i><size=45><color=#191970>cout << "num2 = " << num2 << endl;</color></size></i>
-	<i><size=45><color=#191970>}</color></size></i>
+	<color=#053ad1>int</color>  <color=#cc7b44>main</color>()
+	{
+	    <color=#053ad1>int</color>  <color=#297499>num1</color>  =  102;
+	    <color=#053ad1>int</color>  <color=#297499>num2</color>  =  -1024;
+
+	    cout  <<  <color=#dd3f37>"num1  =  "</color>  <<  <color=#297499>num1</color>  <<  endl;
+	    cout  <<  <color=#dd3f37>"num2  =  "</color>  <<  <color=#297499>num2</color>  <<  endl;
+	}</size>
 
 	<b><size=50><size=63>ч</size>исла с плавающей точкой</size></b>
 
@@ -44,18 +46,18 @@
 
     <size=45>Например, число 3,65 является числом с плавающей точкой может. В качестве разделителя целой и дробной частей используется символ точки.</size>
 
-    <size=45>В языке C++ есть несколько типов для представления чисел с плавающей точкой, но наиболее распространенным является <b>double</b>:</size>
+    <size=45>В языке C++ есть несколько типов для представления чисел с плавающей точкой, но наиболее распространенным является <b><color=#053ad1>double</color></b>:</size>
 
     <size=45>В C++ литералы чисел с плавающими точками представлены дробными числами, которые в качестве разделителя целой и дробной частей применяют точку:</size>
 
-	<i><size=45><color=#191970>double num = 10.45;</color></size></i>
+	  <size=45><color=#053ad1>double</color>  <color=#297499>num</color>  =  10.45;</size>
 
 	<b><size=50>Tипы данных</size></b>
 
-    <size=45>Tип данных <b>String</b> в C++ представляет собой последовательность символов, заключенных в двойные кавычки. Строки в C++ могут быть использованы для хранения текстовой информации, такой как имена, адреса, сообщения и т.д.</size>
+    <size=45>Tип данных <b><color=#053ad1>string</color></b> в C++ представляет собой последовательность символов, заключенных в двойные кавычки. Строки в C++ могут быть использованы для хранения текстовой информации, такой как имена, адреса, сообщения и т.д.</size>
 
-    <size=45>Строки в C++ могут быть обозначены с использованием ключевого слова <b>string</b> из стандартной библиотеки C++. Например:</size>
+    <size=45>Строки в C++ могут быть обозначены с использованием ключевого слова <b><color=#053ad1>string</color></b> из стандартной библиотеки C++. Например:</size>
 
-	<i><size=45><color=#191970>String str = “Hello”;</color></size></i>
-	<i><size=45><color=#191970>cout << str << endl;</color></size></i>
+	  <size=45><color=#053ad1>string</color>  <color=#297499>str</color>  =  <color=#dd3f37>“Hello”</color>;
+	cout  <<  <color=#297499>str</color>  <<  endl;</size>
 

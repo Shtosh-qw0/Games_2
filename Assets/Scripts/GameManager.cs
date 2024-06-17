@@ -11,12 +11,14 @@ public class GameManager : MonoBehaviour
     public int count = 0;
     int size = 0;
     public GameObject NextButtonThingy;
+    //public GameObject VideoInfo;
 
     void Start()
     {
         count = 0;
         text.text = texts[count];
         NextButtonThingy.SetActive(false);
+        //VideoInfo.SetActive(false);
         count = 1;
         //text.text = texts[count];
     }
@@ -34,6 +36,14 @@ public class GameManager : MonoBehaviour
         count++;
 
     }
+
+    /*public void ExplanationTask()
+    {
+        if(count == 3)
+        {
+            VideoInfo.SetActive(true);
+        }
+    }*/
 
     public void Checking—licks()
     {

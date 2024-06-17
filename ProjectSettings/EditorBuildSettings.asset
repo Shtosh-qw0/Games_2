@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/(2)greeting.unity
     guid: c97eda8d7d28b2048a3d77efc3b19ab0
+  - enabled: 1
+    path: Assets/Scenes/(3) Task_1.unity
+    guid: f5b94add4596c5647b45a7c661726ae1
   - enabled: 0
     path: Assets/Scenes/()info.unity
     guid: 2a946185ff298724ea4539fdbbb3cdea
@@ -24,12 +27,87 @@ EditorBuildSettings:
     path: Assets/Scenes/(q).unity
     guid: 802a57c2e91b0f54183710979c2de235
   - enabled: 1
-    path: Assets/Scenes/(3) Task_1.unity
-    guid: f5b94add4596c5647b45a7c661726ae1
-  - enabled: 1
     path: Assets/Scenes/(4)Task_2.unity
     guid: 756fc38fd60d25b4d96ebcd910c5a879
   - enabled: 1
+    path: Assets/Scenes/(5)Task_3.unity
+    guid: 1d97bba2dbeb0dd4291d4a0cb67f6306
+  - enabled: 1
+    path: Assets/Scenes/(6)Transition.unity
+    guid: 759bfa4dd9225a14888583173d73203b
+  - enabled: 1
+    path: Assets/Scenes/(7)Task_4.unity
+    guid: 1e5d86182483f204e8f5a982e6906eb7
+  - enabled: 1
+    path: Assets/Scenes/(8)Task_5.unity
+    guid: 2fa2a296e557d0a44a3b30c6c55c9252
+  - enabled: 1
+    path: Assets/Scenes/(9)Task_6.unity
+    guid: fdd0b134072fa7842947ab502c26b4b6
+  - enabled: 1
+    path: Assets/Scenes/(10)Transition.unity
+    guid: c1a72aa34e4492c429d60f8abe11fb28
+  - enabled: 1
+    path: Assets/Scenes/(11)Task_7.unity
+    guid: c18ac3d55684b9d44a177e101043b2c0
+  - enabled: 1
+    path: Assets/Scenes/(12)Task_8.unity
+    guid: ae5da9ab39653704f9c1768c7461e47f
+  - enabled: 1
+    path: Assets/Scenes/(13)Task_9.unity
+    guid: f1328fec00489fb44ad99cef0bc6b1e5
+  - enabled: 1
+    path: Assets/Scenes/(14)Task_10.unity
+    guid: 0aca7817793ef8c438bfa0ac5aa93dc3
+  - enabled: 1
+    path: Assets/Scenes/(15)Transition.unity
+    guid: c4ece16118c5e6c499b7ec742c29a9bb
+  - enabled: 1
+    path: Assets/Scenes/(16)Task_11.unity
+    guid: 729729c276cb8ab43a13eb8709207bf6
+  - enabled: 1
+    path: Assets/Scenes/(17)Transition.unity
+    guid: 45f933859aca4dc43828bd6152272fc6
+  - enabled: 1
+    path: Assets/Scenes/(18)Task_12.unity
+    guid: 1c95e7d45ae5f704ca0d481ad6168e60
+  - enabled: 1
+    path: Assets/Scenes/(19)Transition.unity
+    guid: 25efd81d54c2b6a4d877734a6d6e22b5
+  - enabled: 1
+    path: Assets/Scenes/(20)Task_13.unity
+    guid: bee4c803f44f3984f8322aabd80cd561
+  - enabled: 1
+    path: Assets/Scenes/(21)Task_14.unity
+    guid: 031cee7be05e972429939420cdc86c14
+  - enabled: 1
+    path: Assets/Scenes/(22)Task_15.unity
+    guid: 617f92ba34bbc3e4cbd024fb914e12ca
+  - enabled: 1
+    path: Assets/Scenes/(23)Task_16.unity
+    guid: 27f0650d2f0884145b83b078e416223e
+  - enabled: 1
+    path: Assets/Scenes/(24)Transition.unity
+    guid: f9548fb5adc9aa643912129dae3b48db
+  - enabled: 1
+    path: Assets/Scenes/(25)Task_17.unity
+    guid: 33e4c7aa5259c4842b28895a528984dc
+  - enabled: 1
+    path: Assets/Scenes/(26)Task_18.unity
+    guid: 19829f73a5c4a17458148c17333d1f5d
+  - enabled: 1
+    path: Assets/Scenes/(27)Transition.unity
+    guid: 4f2730df4be0501428e12ff148e402d9
+  - enabled: 1
+    path: Assets/Scenes/(28)Task_19.unity
+    guid: d3dd647eec0989d408ce594ef86cc6dc
+  - enabled: 1
+    path: Assets/Scenes/(29)Task_20.unity
+    guid: aca6a941b702c094398fd2f44df97d9d
+  - enabled: 1
+    path: Assets/Scenes/(30)Transition.unity
+    guid: a722475e72fb7734f98525c6ab5ea3c0
+  - enabled: 0
     path: Assets/Scenes/(exp).unity
     guid: 8ab4ac609aafbfa4b9a90af237eaec63
   m_configObjects: {}
